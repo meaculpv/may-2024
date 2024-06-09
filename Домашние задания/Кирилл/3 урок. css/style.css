@@ -1,0 +1,26 @@
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h1 {
+    text-decoration: underline;
+}
+p {
+    text-indent: 40px;
+    line-height: 1.2;
+}
+
+li { 
+    font-size: 20px;
+
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+b {
+    text-shadow: 1px 5px 3px #0055dc;
+}

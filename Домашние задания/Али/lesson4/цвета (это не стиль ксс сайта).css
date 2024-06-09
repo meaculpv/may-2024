@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  height: 100px;
+  padding: 20px;
+  border: 10px solid #000;
+  margin: 20px;
+  /* padding: 20px; -> добавляет внутренние отступы со всех сторон */
+  /* padding: 20px 40px; -> добавляет внутренние отступы сверху и снизу 20px, а слева и справа 40px */
+  /* padding: 20px 40px 10px; -> добавляет внутренний отступ сверху 20px, снизу 40px, а по бокам 10px */
+  /* padding: 20px 40px 20px 70px; -> добавляет сверху 20px, справа 40px, снизу 20px, слева 70px */
+
+  /* margin: 20px; -> добавляет внешние отступы со всех сторон */
+  /* margin: 20px 40px; -> добавляет внешние отступы сверху и снизу 20px, а слева и справа 40px */
+  /* margin: 20px 40px 10px; -> добавляет внешний отступ сверху 20px, снизу 40px, а по бокам 10px */
+  /* margin: 20px 40px 20px 70px; -> добавляет сверху 20px, справа 40px, снизу 20px, слева 70px */
+}
+
+/* 1148x22; 1108x22; 1088x22; 1048x22 */
+
+img {
+  display: block;
+  width: 50%;
+  height: 600px;
+  object-fit: cover;
+  /* padding: 10px 20px; */
+  /* margin: 100px auto; */
+}
+
+.link {
+  display: block;
+}
+
+.img2 {
+  /* 516x600; 476x560; 436x520  */
+  /* box-sizing: border-box; */
+  /* box-sizing: content-box; */
+  /* 45% - 20px - 20px */
+  /* border: 20px solid #000; */
+  /* padding: 20px; */
+  /* margin: 100px; */
+}
+
+body {
+  background-color: bisque;
+  height: 200vh;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(173, 216, 230, 0.8) 20%,
+      rgba(255, 99, 71, 0.8)
+    ),
+    url('https://images.unsplash.com/photo-1716881765668-5e191e9b284a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+  /* background-position: top; */
+  background-size: cover;
+  background-blend-mode: exclusion;
+  /* background-attachment: fixed; */
+  margin: auto;
+
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 100%);
+}
+
+.heading-primary {
+  font-size: 100px;
+  color: transparent;
+  background: linear-gradient(to bottom right, #000, #fff);
+  background-clip: text;
+}

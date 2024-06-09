@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+.mainblock {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(135deg, rgb(126, 213, 111, 0.9), rgb(85, 197, 122, 0.7), rgb(40, 180, 133, 0.7)),url(hero.jpg);
+
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 97%);
+}
+.logo {
+    z-index: 1;
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+}
+h1 {
+    z-index: 1;
+    position: absolute;
+    font-family: Arial;
+    font-size: 38px;
+    font-weight: 100;
+    top: 40%;
+    left: 50%;
+    letter-spacing: 16px;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+h3 {
+    z-index: 1;
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 200;
+    top: 45%;
+    left: 50%;
+    letter-spacing: 9px;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.button {
+    text-decoration: none;
+    z-index: 1;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 12px 20px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    color: rgb(78, 78, 78);
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}

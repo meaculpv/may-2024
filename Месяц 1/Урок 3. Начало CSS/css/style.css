@@ -1,0 +1,66 @@
+selector {
+  /* стили */
+}
+
+/* теговый селектор */
+h1 {
+  color: lightgreen;
+}
+/* классовый селектор */
+.heading {
+  color: lightblue;
+}
+/* селектор по айди */
+#heading {
+  color: lightsalmon;
+}
+/* селектор по атрибуту */
+/* [class^='blue'] {
+  width: 400px;
+}
+
+.orange {
+  width: 400px;
+}
+
+.image {
+  position: relative;
+  width: fit-content;
+}
+
+.image__text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+} */
+
+.heading-secondary {
+  text-align: center;
+  text-decoration: overline;
+  text-transform: uppercase;
+  text-shadow: 0 10px 20px lightpink;
+  font-size: 80px;
+  font-weight: 100;
+  font-style: italic;
+  /* text-shadow: x y размытие цвет */
+}
+
+.paragraph-2 {
+  text-align: justify;
+  text-indent: 100px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  line-height: 2;
+
+}
+
+.link {
+  /* color: #000; */
+  text-decoration: none;
+}
