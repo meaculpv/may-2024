@@ -33,3 +33,29 @@
 .navigation__logo {
   height: 50px;
 }
+
+.main {
+  height: 80vh;
+  background: url('../images/back.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.products__text-box {
+}
+
+.products__list-box {
+}
+
+.product {
+}
+
+.product__header {
+  
+}
+
+.product__body {
+}
+
+.product__footer {
+}
