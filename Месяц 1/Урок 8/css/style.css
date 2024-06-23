@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem - 10px */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+  height: 200vh;
+
+  position: relative;
+
+  z-index: -123123;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 1.8rem 0;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.nav {
+}
+
+.nav__list {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+}
+
+.nav__item {
+}
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.nav__link--home {
+  margin-right: 20rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.social__items {
+  display: flex;
+  gap: 1rem;
+
+  z-index: 20;
+}
+
+.social__icon {
+  width: 4rem;
+  height: 4rem;
+  background: #000;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: -2;
+}
+
+[class^='iconoir'] {
+  font-size: 2.4rem;
+  color: #fff;
+
+  z-index: -1;
+}
+
+.social__whatsapp {
+  z-index: -999;
+}
+
+.btn-whatsapp {
+  color: #000;
+  text-decoration: none;
+  padding: 1.6rem 2rem;
+  background: #4edb0d;
+  border-radius: 10rem;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+}

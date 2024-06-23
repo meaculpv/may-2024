@@ -1,0 +1,17 @@
+.btn {
+  &:any-link {
+    display: inline-block;
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+
+    padding: 2rem 4rem;
+    border-radius: 10rem;
+  }
+
+  &.btn--white {
+    background: #fff;
+    margin-top: 4rem;
+  }
+}

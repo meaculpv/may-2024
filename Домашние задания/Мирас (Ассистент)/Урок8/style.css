@@ -1,0 +1,181 @@
+:root {
+  font-size: 67.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #94dd86c7, #3b9166c0),
+    url(assets/hero.jpg);
+  background-size: cover;
+  background-position-y: 60%;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 3.5rem 4rem 0 4rem;
+  justify-content: space-between;
+}
+
+.logo > img {
+  width: 9rem;
+}
+
+.menu {
+  display: flex;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.menu > i {
+  font-size: 3.5rem;
+}
+
+@keyframes angle-twister {
+  10% {
+    border-top-left-radius: 10%;
+    transform: rotateZ(90deg);
+  }
+  23% {
+    border-top-right-radius: 10%;
+    transform: rotateZ(180deg);
+  }
+  46% {
+    border-bottom-right-radius: 10%;
+    transform: rotateZ(270deg);
+  }
+  50% {
+    border-bottom-left-radius: 10%;
+    transform: rotateZ(360deg);
+  }
+  100% {
+    border-radius: 50%;
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    color: lightyellow;
+    text-shadow: 0px 0px 3px lightyellow;
+  }
+  10% {
+    color: red;
+    text-shadow: 0px 0px 3px orangered;
+  }
+  20% {
+    color: orange;
+    text-shadow: 0px 0px 3px orange;
+  }
+  30% {
+    color: yellow;
+    text-shadow: 0px 0px 3px yellow;
+  }
+  40% {
+    color: lightgreen;
+    text-shadow: 0px 0px 3px lightgreen;
+    box-shadow: 0 0 10px 10px lightgreen;
+  }
+  50% {
+    color: cyan;
+    text-shadow: 0px 0px 3px cyan;
+  }
+  60% {
+    color: lightblue;
+    text-shadow: 0px 0px 3px lightblue;
+  }
+  70% {
+    color: magenta;
+    text-shadow: 0px 0px 3px magenta;
+  }
+  80% {
+    color: pink;
+    text-shadow: 0px 0px 3px pink;
+  }
+  90% {
+    color: lightpink;
+    text-shadow: 0px 0px 3px lightpink;
+  }
+
+  100% {
+    color: white;
+    text-shadow: 0px 0px 3px white;
+  }
+}
+
+.menu:hover {
+  animation: angle-twister 2.5s infinite ease-in-out;
+}
+
+.menu > i:hover {
+  animation: rainbow 2.5s infinite ease-in-out;
+}
+
+.header-heading-section {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  top: 38%;
+  left: 50%;
+  align-items: center;
+}
+
+.header-heading-section {
+  gap: 6rem;
+}
+
+.header-heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-heading {
+  font-size: 6rem;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 3.2rem;
+  padding-left: 3.2rem;
+}
+
+.header-subheading {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.header-tours-button {
+  padding: 1.7rem 3.4rem;
+  border: none;
+  border-radius: 4rem;
+  background-color: white;
+  font-size: 1.4rem;
+  color: #6b6b6b;
+  transition: all 0.1s ease-in;
+}
+
+.header-tours-button:hover {
+  box-shadow: 0 0 10px 4px white;
+  letter-spacing: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  animation: rainbow 4s infinite;
+  transition: all 0.1s ease-in;
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ul {
+  background-color: rgba(161, 159, 159, 0.375);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-family: "Roboto";
+  padding: 3vh 89vh 3vh 0;
+  width: 1680px;
+  height: 8vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.div {
+  font-size: 28px;
+  position: absolute;
+  float: left;
+  top: -85px;
+  left: 135vh;
+  margin: 100px;
+  display: inline;
+  width: 200px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: "Open Sans";
+  position: absolute;
+  top: 1vh;
+  left: 170vh;
+  background-color: rgb(0, 213, 0);
+  font-weight: normal;
+  border-radius: 25px;
+  border: 3px solid rgb(0, 213, 0);
+  padding: 10px;
+}

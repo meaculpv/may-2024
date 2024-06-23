@@ -1,0 +1,42 @@
+.composition {
+  width: 35%;
+  position: relative;
+  img {
+    width: 35rem;
+    position: absolute;
+
+    &.composition__img--1 {
+      top: -4rem;
+
+      &:hover {
+        outline-offset: 2rem;
+        outline: 1rem solid var(--color-primary);
+        box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+        z-index: 10;
+      }
+    }
+    &.composition__img--2 {
+      top: 1rem;
+      left: 25rem;
+      &:hover {
+        outline-offset: 2rem;
+        outline: 1rem solid var(--color-primary);
+        box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+        z-index: 10;
+      }
+    }
+    &.composition__img--3 {
+      top: 8rem;
+      left: 10rem;
+      &:hover {
+        outline-offset: 2rem;
+        outline: 1rem solid var(--color-primary);
+        box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+        z-index: 10;
+      }
+    }
+  }
+}
